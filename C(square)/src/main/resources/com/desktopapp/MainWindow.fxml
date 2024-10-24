@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:id="Box" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.desktopapp.MainController">
+   <children>
+      <AnchorPane prefHeight="960.0" prefWidth="1280.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Canvas fx:id="Tela" height="960.0" onKeyPressed="#BallControl" width="1280.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
